@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'San Francisco', Arial, sans-serif;
+	font-size: 20px;
+}
+.navbar-brand{
+    position: absolute;
+    left: 24%;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 20px; 
+}
+#loja{
+    position: relative;
+        width: 100%;
+        height: 100vh;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.navbar {
+    height: 45px; 
+}
+#loja{
+    background-image: url('../images/iphone2.gif');
+    background-color: gray;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;	
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #carouselExampleSlidesOnly {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+
+  .finalizacao {
+    font-size: 12px;
+    font-family: 'Roboto-light';
+    text-align: center;
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+      background-color: #343a40; /* Defina a cor de fundo para o menu dropdown */
+    }
+    .navbar-nav {
+      width: 100%; /* Ocupa toda a largura do menu dropdown */
+    }
+    .navbar-nav .nav-link {
+      padding: .5rem 1rem; /* Espaçamento interno dos links no menu dropdown */
+      text-align: center; /* Centraliza o texto dos links no menu dropdown */
+    }
+    .navbar-nav .nav-link:last-child {
+      border-top: 1px solid rgba(255, 255, 255, 0.1); /* Adiciona uma borda superior ao último link */
+    }
+  }
